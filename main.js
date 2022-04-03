@@ -6,6 +6,6 @@
  * 
  */
 function fly(btn) {
-    btn.id === 'First' ? document.getElementById('Second') : btn;
+    btn = btn.id === 'first' ? document.getElementById('second') : document.getElementById('first');
     btn.textContent === 'Hello' ? btn.textContent = 'Hi' : btn.textContent = 'Hello';
 }
